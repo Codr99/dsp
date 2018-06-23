@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd   * show current working directory path
+mkdir * creating a directory
+rmdir * deleting a directory
+touch * creating a file using `touch` command
+rm    * deleting a file
+mv same/path * renaming a file
+ls -a * listing hidden files
+cp filename to_path * copying a file from one directory to another
+ls -u * Displays files by the file access time.
+tac * concatenate and print files in reverse
+cat * concatenate files and print on the standard output
 
 ---
 
@@ -35,7 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`  lists the files in a directory
+`ls -a`   lists all file, including hidden files
+`ls -l`   provides the long list of attributes
+`ls -lh`  shows long list with print sizes in human readable format
+`ls -lah` shows long list with print sizes of all files (including hidden) in human readable format
+`ls -t`   lists files sorted by modification time, newest first
+`ls -Glp` lists files without Group with long list and appends path with slash
 
 ---
 
@@ -43,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls -u' Displays files by the file access time.
+'ls -L' * symbolic link
+'ls *[0-9]*' * Displays a list of files that contain a digit
+'ls [^a-k]*' Displays files that do Not begin with letters l - m.
+'ls -e'   Prints the Access control list for the file, if present, in long format.
 
 ---
 
@@ -51,7 +71,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs repeats a procedure on each item of a list.
 
  
 
